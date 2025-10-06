@@ -8,7 +8,7 @@ echo "Cloning repo is completed"
 }
 stage("Program Execution"){
 steps{
-bat 'java Sample.java'
+bat 'java sample.java'
 }
 }
 }
